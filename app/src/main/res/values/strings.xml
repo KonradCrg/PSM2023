@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Twoj_Bagaz</string>
+    <string name="wybierz_kategorie_rzeczy_do_spakowania">Wybierz kategorie rzeczy do spakowania</string>
+    <string name="ubrania">Ubrania</string>
+    <string name="elektronika">Elektronika</string>
+    <string name="kosmetyki">Kosmetyki</string>
+    <string name="wazne_dokumenty">Wazne dokumenty</string>
+    <string name="apteczka">Apteczka</string>
+    <string name="go">GO</string>
+    <string name="haslo">Hasło</string>
+    <string name="nazwa_uzytkownika">Nazwa Użytkownika</string>
+
+</resources>
