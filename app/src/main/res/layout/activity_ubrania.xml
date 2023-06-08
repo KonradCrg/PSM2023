@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Koszulki"
             app:cornerRadius="30dp"
-            android:onClick="Button_koszulki" />
+            android:onClick="nextStep" />
 
         <Button
             android:id="@+id/spodnie"

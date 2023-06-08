@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.twoj_bagaz.R;
-
 public class BizuteriaActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
