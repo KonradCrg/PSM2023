@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".BizuteriaActivity">
+    tools:context=".BieliznaActivity">
 
 
     <TextView
@@ -30,62 +30,33 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/zegarek"
+            android:id="@+id/skarpetki"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Zegarek"
+            android:text="Skarpetki"
             app:cornerRadius="30dp"
             android:onClick="nextStep" />
 
         <Button
-            android:id="@+id/pierscionek"
+            android:id="@+id/bokserki"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Pierscionek"
+            android:text="Bokserki"
             app:cornerRadius="30dp" />
 
-        <Button
-            android:id="@+id/naszyjnik"
-            android:layout_width="270dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:backgroundTint="@color/pomaranczowy"
-            android:text="Naszyjnik"
-            app:cornerRadius="30dp" />
-
-        <Button
-            android:id="@+id/bransoletka"
-            android:layout_width="270dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:backgroundTint="@color/pomaranczowy"
-            android:text="Bransoletka"
-            app:cornerRadius="30dp" />
-
-        <Button
-            android:id="@+id/okulary_przeciw_sloneczne"
-            android:layout_width="270dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:backgroundTint="@color/pomaranczowy"
-            android:text="Okulary przeciw słoneczne"
-            app:cornerRadius="30dp" />
 
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="7"
             android:text="" />
 
 

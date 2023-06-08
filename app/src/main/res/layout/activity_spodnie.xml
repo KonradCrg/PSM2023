@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".BizuteriaActivity">
+    tools:context=".UbraniaActivity">
 
 
     <TextView
@@ -30,54 +30,54 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/zegarek"
+            android:id="@+id/spodnie_jeansowe"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Zegarek"
+            android:text="Spodnie jeansowe"
             app:cornerRadius="30dp"
             android:onClick="nextStep" />
 
         <Button
-            android:id="@+id/pierscionek"
+            android:id="@+id/spodnie_dresowe"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Pierscionek"
+            android:text="Spodnie dresowe"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/naszyjnik"
+            android:id="@+id/krotkie_spodenki"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Naszyjnik"
+            android:text="Krótkie spodenki"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/bransoletka"
+            android:id="@+id/spodenki_plazowe"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Bransoletka"
+            android:text="Spodenki plażowe"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/okulary_przeciw_sloneczne"
+            android:id="@+id/spodnie_eleganckie"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Okulary przeciw słoneczne"
+            android:text="Spodnie eleganckie"
             app:cornerRadius="30dp" />
 
 

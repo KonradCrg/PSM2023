@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".ElektronikaActivity">
+    tools:context=".KosmetykiActivity">
 
 
     <TextView
@@ -30,76 +30,125 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/laptop_i_ladowarka"
+            android:id="@+id/szampon"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Laptop i ładowarka"
+            android:text="Szampon/żel"
             app:cornerRadius="30dp"
             android:onClick="nextStep" />
 
         <Button
-            android:id="@+id/tablet"
+            android:id="@+id/chusteczki"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Tablet"
+            android:text="Chusteczki"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/aparat_cyfrowy"
+            android:id="@+id/reczniki"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Aparat cyfrowy"
+            android:text="Ręczniki"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/klawiatura_i_myszka"
+            android:id="@+id/krem_do_rak"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Klawiatura i myszka"
+            android:text="Krem do rąk"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/sluchawki_bezprzewodowe_i_przewodowe"
+            android:id="@+id/krem_do_opalania"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Słuchawki bezprzewodowe i przewodowe"
+            android:text="Krem do opalania"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/latarka"
+            android:id="@+id/dezodorant"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Latarka"
+            android:text="Dezodorant"
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/telefon_i_ladowarka"
+            android:id="@+id/szuszarka_do_wlosow"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
-            android:text="Telefon i ładowarka"
+            android:text="Szuszarka do włosów"
             app:cornerRadius="30dp" />
 
+        <Button
+            android:id="@+id/szczotka_do_wlosow"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="@color/pomaranczowy"
+            android:text="Szczotka do włosów"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/pasta_i_szczoteczka_do_zebow"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="@color/pomaranczowy"
+            android:text="Pasta i szczoteczka do zębów"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/art_do_pielegnacji_wlosow"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="@color/pomaranczowy"
+            android:text="Art do pielęgnacji włosów"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/akcesoria_do_wlosow"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="@color/pomaranczowy"
+            android:text="Akcesoria do włosów"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/maszynka_i_krem_do_golenia"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="@color/pomaranczowy"
+            android:text="Maszynka + krem do golenia"
+            app:cornerRadius="30dp" />
 
         <TextView
             android:id="@+id/textView5"

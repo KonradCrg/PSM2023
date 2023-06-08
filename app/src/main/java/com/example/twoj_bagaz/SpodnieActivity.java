@@ -6,10 +6,10 @@ import android.os.Bundle;
 
 import com.example.twoj_bagaz.R;
 
-public class BizuteriaActivity extends AppCompatActivity{
+public class SpodnieActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bizuteria);
+        setContentView(R.layout.activity_spodnie);
     }
 }
