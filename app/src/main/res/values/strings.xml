@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Twoj_Bagaz</string>
-    <string name="wybierz_kategorie_rzeczy_do_spakowania">Wybierz kategorie rzeczy do spakowania</string>
+    <string name="wybierz_kategorie_rzeczy_do_spakowania">Otwórz kategorie z rzeczami do spakowania</string>
     <string name="ubrania">Ubrania</string>
     <string name="elektronika">Elektronika</string>
     <string name="kosmetyki">Kosmetyki</string>
@@ -9,5 +9,6 @@
     <string name="go">GO</string>
     <string name="haslo">Hasło</string>
     <string name="nazwa_uzytkownika">Nazwa Użytkownika</string>
+    <string name="wybierz_ubranie">Zaznacz potrzebne rzeczy do bagażu</string>
 
 </resources>

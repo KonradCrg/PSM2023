@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.twoj_bagaz.R;
 
-public class ElektronikaActivity extends AppCompatActivity {
+public class Wazne_dokActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_elektronika);
+        setContentView(R.layout.activity_wazne_dok);
     }
 }

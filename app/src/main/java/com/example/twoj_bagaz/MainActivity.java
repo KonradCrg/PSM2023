@@ -23,14 +23,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Button_Elektronika(View view) {
+        Intent intent = new Intent(MainActivity.this, ElektronikaActivity.class);
+        startActivity(intent);
     }
 
     public void Button_Kosmetyki(View view) {
+        Intent intent = new Intent(MainActivity.this, KosmetykiActivity.class);
+        startActivity(intent);
     }
 
     public void Button_Wazne_dok(View view) {
+        Intent intent = new Intent(MainActivity.this, Wazne_dokActivity.class);
+        startActivity(intent);
     }
 
     public void Button_Apteczka(View view) {
+        Intent intent = new Intent(MainActivity.this, ApteczkaActivity.class);
+        startActivity(intent);
     }
+
+
 }
