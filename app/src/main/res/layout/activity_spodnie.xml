@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".UbraniaActivity">
+    tools:context=".SpodnieActivity">
 
 
     <TextView
