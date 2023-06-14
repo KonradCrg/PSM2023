@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".ElektronikaActivity">
+    tools:context=".ubrania.ButyActivity">
 
 
     <TextView
