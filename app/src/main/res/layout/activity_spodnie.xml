@@ -8,12 +8,12 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".SpodnieActivity">
+    tools:context=".ubrania.SpodnieActivity">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="277dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Spodnie jeansowe"
             app:cornerRadius="30dp"
-            android:onClick="nextStep" />
+            android:onClick="Button_jeanosowe" />
 
         <Button
             android:id="@+id/spodnie_dresowe"
@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Spodnie dresowe"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_dresowe" />
 
         <Button
             android:id="@+id/krotkie_spodenki"
@@ -58,7 +59,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Krótkie spodenki"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_spodenki" />
 
         <Button
             android:id="@+id/spodenki_plazowe"
@@ -68,7 +70,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Spodenki plażowe"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_plazowe" />
 
         <Button
             android:id="@+id/spodnie_eleganckie"
@@ -78,7 +81,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Spodnie eleganckie"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_eleganckie" />
 
 
         <TextView

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,44 +11,98 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Twoj_Bagaz"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".ApteczkaActivity"
-            android:exported="false">
+            android:name=".WybraneUbranieActivity"
+            android:exported="false"
+            android:label="Wybranie ubrania/przedmioty">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".BizuteriaActivity"
-            android:exported="false">
+            android:name=".ubrania.OkryciewierzchneActivity"
+            android:label="Okrycie wierzchne"
+            android:exported="false" />
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        <activity
+            android:name=".ubrania.ButyActivity"
+            android:exported="false"
+            android:label="Buty">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="Rejestracja w aplikacji Twoj Bagaż">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ApteczkaActivity"
+            android:exported="false"
+            android:label="Apteczka">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ubrania.BizuteriaActivity"
+            android:exported="false"
+            android:label="Biżuteria">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".Wazne_dokActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="Ważne dokumenty">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="Twój Bagaż">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".UbraniaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Ubrania"/>
+        <activity
+            android:name=".KosmetykiActivity"
+            android:exported="false"
+            android:label="Kosmetyki"/>
         <activity
             android:name=".ElektronikaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Elektronika"/>
+        <activity
+            android:name=".ubrania.KoszulkiActivity"
+            android:exported="false"
+            android:label="Koszulki"/>
+        <activity
+            android:name=".ubrania.SpodnieActivity"
+            android:exported="false"
+            android:label="Spodnie"/>
+        <activity
+            android:name=".ubrania.BieliznaActivity"
+            android:exported="false"
+            android:label="Bielizna"/>
         <activity
             android:name=".LogowanieActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Logowanie w aplikacji Twój Bagaż">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
