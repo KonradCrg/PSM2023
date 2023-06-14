@@ -8,12 +8,12 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".BieliznaActivity">
+    tools:context=".ubrania.BieliznaActivity">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="274dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Skarpetki"
             app:cornerRadius="30dp"
-            android:onClick="nextStep" />
+            android:onClick="Button_skarpetki" />
 
         <Button
             android:id="@+id/bokserki"
@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Bokserki"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_bokserki" />
 
 
 
@@ -56,7 +57,7 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="8"
             android:text="" />
 
 

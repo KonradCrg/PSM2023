@@ -1,14 +1,21 @@
 <resources>
-    <string name="app_name">Twoj_Bagaz</string>
+    <string name="app_name">Twoj Bagaz</string>
     <string name="wybierz_kategorie_rzeczy_do_spakowania">Otwórz kategorie z rzeczami do spakowania</string>
     <string name="ubrania">Ubrania</string>
     <string name="elektronika">Elektronika</string>
     <string name="kosmetyki">Kosmetyki</string>
     <string name="wazne_dokumenty">Wazne dokumenty</string>
     <string name="apteczka">Apteczka</string>
-    <string name="go">GO</string>
+    <string name="go">Zaloguj</string>
     <string name="haslo">Hasło</string>
     <string name="nazwa_uzytkownika">Nazwa Użytkownika</string>
     <string name="wybierz_ubranie">Zaznacz potrzebne rzeczy do bagażu</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="kliknij_aby_sie_zalogowa">Kliknij aby sie zalogować</string>
+    <string name="kliknij_aby_si_zarejestrowa">Kliknij aby się zarejestrować</string>
+    <string name="wyloguj_si">wyloguj się</string>
 
 </resources>
