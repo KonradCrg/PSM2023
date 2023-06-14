@@ -8,12 +8,12 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:backgroundTint="@color/blekit"
-    tools:context=".BizuteriaActivity">
+    tools:context=".ubrania.BizuteriaActivity">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="277dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Zegarek"
             app:cornerRadius="30dp"
-            android:onClick="nextStep" />
+            android:onClick="Button_zegarek" />
 
         <Button
             android:id="@+id/pierscionek"
@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Pierscionek"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_pierscionek" />
 
         <Button
             android:id="@+id/naszyjnik"
@@ -58,7 +59,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Naszyjnik"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_naszyjnik" />
 
         <Button
             android:id="@+id/bransoletka"
@@ -68,7 +70,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Bransoletka"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_bransoletka" />
 
         <Button
             android:id="@+id/okulary_przeciw_sloneczne"
@@ -78,7 +81,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Okulary przeciw słoneczne"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_okulary" />
 
 
         <TextView

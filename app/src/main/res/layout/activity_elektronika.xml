@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="277dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Laptop i ładowarka"
             app:cornerRadius="30dp"
-            android:onClick="nextStep" />
+            android:onClick="Button_laptop" />
 
         <Button
             android:id="@+id/tablet"
@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Tablet"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_tablet" />
 
         <Button
             android:id="@+id/aparat_cyfrowy"
@@ -58,7 +59,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Aparat cyfrowy"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_aparat" />
 
         <Button
             android:id="@+id/klawiatura_i_myszka"
@@ -68,7 +70,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Klawiatura i myszka"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_klawia" />
 
         <Button
             android:id="@+id/sluchawki_bezprzewodowe_i_przewodowe"
@@ -78,7 +81,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Słuchawki bezprzewodowe i przewodowe"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_sluchawki" />
 
         <Button
             android:id="@+id/latarka"
@@ -88,7 +92,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Latarka"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_latarka" />
 
         <Button
             android:id="@+id/telefon_i_ladowarka"
@@ -98,7 +103,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Telefon i ładowarka"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_tel" />
 
 
         <TextView

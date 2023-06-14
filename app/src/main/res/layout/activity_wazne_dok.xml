@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="277dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
@@ -38,7 +38,7 @@
             android:backgroundTint="@color/pomaranczowy"
             android:text="Dokumenty"
             app:cornerRadius="30dp"
-            android:onClick="nextStep" />
+            android:onClick="Button_dokumenty" />
 
         <Button
             android:id="@+id/plyn_do_dezynfekcji"
@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Płyn do dezynfekcji"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_plyn" />
 
         <Button
             android:id="@+id/pieniadze_w_danej_walucie"
@@ -58,7 +59,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Pienądze w danej walucie"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_pieniadze" />
 
         <Button
             android:id="@+id/bilety"
@@ -68,7 +70,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Bilety"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_bilety" />
 
         <Button
             android:id="@+id/powerbank"
@@ -78,7 +81,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Powerbank"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_powerbank" />
 
         <TextView
             android:id="@+id/textView5"

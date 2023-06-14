@@ -13,12 +13,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="265dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="3"
         android:gravity="center"
-        android:text="@string/wybierz_kategorie_rzeczy_do_spakowania"
+        android:text="@string/wybierz_ubranie"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -59,7 +59,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Bielizna"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_Bielizna" />
 
         <Button
             android:id="@+id/bizuteria"
@@ -69,7 +70,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Biżuteria"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_Bizuteria"/>
 
         <Button
             android:id="@+id/obuwie"
@@ -79,7 +81,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Obuwie"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_Obuwie"/>
 
         <Button
             android:id="@+id/okrycie_wierzchne"
@@ -89,7 +92,9 @@
             android:layout_weight="1"
             android:backgroundTint="@color/pomaranczowy"
             android:text="Okrycie wierzchne"
-            app:cornerRadius="30dp" />
+            app:cornerRadius="30dp"
+            android:onClick="Button_Okryciewierzchne"/>
+
 
         <TextView
             android:id="@+id/textView5"

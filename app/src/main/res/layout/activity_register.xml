@@ -7,22 +7,20 @@
     android:background="@drawable/logos"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".LogowanieActivity"
-    android:layout_weight="10">
-
+    tools:context=".Register"
+    android:layout_weight="20"
+    >
 
     <TextView
         android:id="@+id/pustka"
-        android:layout_width="wrap_content"
-        android:layout_height="394dp"
+        android:layout_width="242dp"
+        android:layout_height="439dp"
         android:layout_marginTop="20dp"
-        android:layout_weight="5"
+        android:layout_weight="2"
         android:gravity="center"
+        android:text=""
         android:textSize="20sp"
-        android:layout_marginBottom="70dp"
         android:textStyle="bold" />
-
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="wrap_content"
@@ -30,26 +28,25 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
-            android:layout_width="187dp"
+            android:layout_width="185dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
+            android:layout_weight="5"
             android:background="@drawable/obramowka"
-            android:hint="@string/email"
-            android:textColorHint="@color/white"/>
-
+            android:hint="@string/email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/obramowka">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
-            android:layout_width="186dp"
+            android:layout_width="185dp"
             android:layout_height="wrap_content"
+            android:layout_weight="5"
             android:background="@drawable/obramowka"
-            android:hint="@string/password"
-            android:textColorHint="@color/white"/>
+            android:hint="@string/password" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,25 +56,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
     <Button
-        android:id="@+id/loginbutton"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_register"
+        android:layout_width="117dp"
         android:layout_height="60dp"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="50dp"
         android:backgroundTint="@color/pomaranczowy"
-        android:text="@string/go"
+        android:text="@string/register"
         android:textColor="@color/white"
         app:cornerRadius="20dp" />
 
 
     <TextView
-        android:id="@+id/registerNow"
-        android:layout_width="308dp"
+        android:id="@+id/loginNow"
+        android:layout_width="242dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/pomaranczowy"
         android:gravity="center_horizontal"
-        android:text="@string/kliknij_aby_si_zarejestrowa"
+        android:text="@string/kliknij_aby_sie_zalogowa"
         android:textSize="20sp"
         android:textStyle="bold" />
 

@@ -1,4 +1,4 @@
-package com.example.twoj_bagaz;
+package com.example.twoj_bagaz.ubrania;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,90 +7,93 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ApteczkaActivity extends AppCompatActivity {
+import com.example.twoj_bagaz.R;
+import com.example.twoj_bagaz.WybraneUbranieActivity;
 
-    private Button button_opatrunki;
-    private Button button_gaziki;
-    private Button button_woda;
-    private Button button_bandaz;
-    private Button button_plastry;
+public class BizuteriaActivity extends AppCompatActivity {
 
+    private Button button_zegarek;
+    private Button button_pierscionek;
+    private Button button_naszyjnik;
+    private Button button_bransoletka;
+    private Button button_okulary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_apteczka);
+        setContentView(R.layout.activity_bizuteria);
+        button_zegarek = findViewById(R.id.zegarek);
+        button_bransoletka = findViewById(R.id.bransoletka);
+        button_okulary = findViewById(R.id.okulary_przeciw_sloneczne);
+        button_naszyjnik = findViewById(R.id.naszyjnik);
+        button_pierscionek = findViewById(R.id.pierscionek);
 
-        button_opatrunki = findViewById(R.id.opatrunki);
-        button_gaziki = findViewById(R.id.gaziki);
-        button_woda = findViewById(R.id.woda_utleniona);
-        button_bandaz = findViewById(R.id.bandaz);
-        button_plastry = findViewById(R.id.plastry_na_drobne_otarcia);
 
-        button_opatrunki.setOnClickListener(new View.OnClickListener() {
+        button_zegarek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Pobierz tekst, który chcesz przekazać
-                String selectedOption = button_opatrunki.getText().toString();
+                String selectedOption = button_zegarek.getText().toString();
 
                 // Tworzenie i konfiguracja Intencji
-                Intent intent = new Intent(ApteczkaActivity.this, WybraneUbranieActivity.class);
+                Intent intent = new Intent(BizuteriaActivity.this, WybraneUbranieActivity.class);
                 intent.putExtra("selectedOption", selectedOption);
 
                 // Uruchom DrugieActivity
                 startActivity(intent);
             }
         });
-        button_gaziki.setOnClickListener(new View.OnClickListener() {
+
+        button_pierscionek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Pobierz tekst, który chcesz przekazać
-                String selectedOption = button_gaziki.getText().toString();
+                String selectedOption = button_pierscionek.getText().toString();
 
                 // Tworzenie i konfiguracja Intencji
-                Intent intent = new Intent(ApteczkaActivity.this, WybraneUbranieActivity.class);
+                Intent intent = new Intent(BizuteriaActivity.this, WybraneUbranieActivity.class);
                 intent.putExtra("selectedOption", selectedOption);
 
                 // Uruchom DrugieActivity
                 startActivity(intent);
             }
         });
-        button_woda.setOnClickListener(new View.OnClickListener() {
+        button_bransoletka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Pobierz tekst, który chcesz przekazać
-                String selectedOption = button_woda.getText().toString();
+                String selectedOption = button_bransoletka.getText().toString();
 
                 // Tworzenie i konfiguracja Intencji
-                Intent intent = new Intent(ApteczkaActivity.this, WybraneUbranieActivity.class);
+                Intent intent = new Intent(BizuteriaActivity.this, WybraneUbranieActivity.class);
                 intent.putExtra("selectedOption", selectedOption);
 
                 // Uruchom DrugieActivity
                 startActivity(intent);
             }
         });
-        button_bandaz.setOnClickListener(new View.OnClickListener() {
+        button_okulary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Pobierz tekst, który chcesz przekazać
-                String selectedOption = button_bandaz.getText().toString();
+                String selectedOption = button_okulary.getText().toString();
 
                 // Tworzenie i konfiguracja Intencji
-                Intent intent = new Intent(ApteczkaActivity.this, WybraneUbranieActivity.class);
+                Intent intent = new Intent(BizuteriaActivity.this, WybraneUbranieActivity.class);
                 intent.putExtra("selectedOption", selectedOption);
 
                 // Uruchom DrugieActivity
                 startActivity(intent);
             }
         });
-        button_plastry.setOnClickListener(new View.OnClickListener() {
+        button_naszyjnik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Pobierz tekst, który chcesz przekazać
-                String selectedOption = button_plastry.getText().toString();
+                String selectedOption = button_naszyjnik.getText().toString();
 
                 // Tworzenie i konfiguracja Intencji
-                Intent intent = new Intent(ApteczkaActivity.this, WybraneUbranieActivity.class);
+                Intent intent = new Intent(BizuteriaActivity.this, WybraneUbranieActivity.class);
                 intent.putExtra("selectedOption", selectedOption);
 
                 // Uruchom DrugieActivity

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340928566675",
+    "project_id": "twoj-bagaz",
+    "storage_bucket": "twoj-bagaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340928566675:android:13b44f1052ebcddf0b8466",
+        "android_client_info": {
+          "package_name": "com.example.twoj_bagaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340928566675-kquarhios4d3rgnid1rqom0lepf1sn8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb0YklhIppVH81_BI24BbOdqcgTWbITqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340928566675-kquarhios4d3rgnid1rqom0lepf1sn8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
